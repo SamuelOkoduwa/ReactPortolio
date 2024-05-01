@@ -1,0 +1,31 @@
+.navBar{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+	gap: 20px;
+	background-color: #FCFCFC;
+	font-family: Be Vietnam;
+	padding-right: 40px;
+	/* border: 1px solid; */
+	height: 83px;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	padding: 5px 10px;
+	transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  a:hover {
+	background-color: #555;
+	border-radius: 5px;
+  }
+
+a.active {
+  background-color: #fff;
+  color: #E84949;
+  border-radius: 5px;
+}
